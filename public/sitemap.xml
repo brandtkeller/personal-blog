@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>brandtkeller.com/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/posts/blogging-the-hard-way/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/tags/hugo/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/tags/kubernetes/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/tags/nginx/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/posts/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/tags/</loc>
+    <lastmod>2023-09-22T06:29:34-07:00</lastmod>
+  </url><url>
+    <loc>brandtkeller.com/about/</loc>
+  </url><url>
+    <loc>brandtkeller.com/about/about/</loc>
+  </url><url>
+    <loc>brandtkeller.com/series/</loc>
+  </url>
+</urlset>
