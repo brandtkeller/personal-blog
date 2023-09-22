@@ -1,2 +1,3 @@
 *zarf-config.toml
 *.tar.zst
+public/*
