@@ -1,6 +1,6 @@
 ---
 title: "Blogging - the hard way"
-date: 2023-09-22T21:19:34-07:00
+date: 2023-09-23T11:30:34-07:00
 tags: ["Kubernetes", "Hugo", "Nginx", "Homelab"]
 draft: false
 ---
@@ -10,9 +10,7 @@ draft: false
 You are here:
 ![](/images/rpi-closeup.png)
 
-## Hello
-
-You might be asking yourself how you ended up here. I'm just as surprised :wink:
+You might be asking yourself how you ended up here. I'm just as surprised as you are :wink:.
 
 Nonetheless, these are the hosts for the website you're viewing - or rather they run this workload and others with some room to spare as an experiment.
 
@@ -20,7 +18,7 @@ Nonetheless, these are the hosts for the website you're viewing - or rather they
 
 ## Why?
 
-The answer is because I'm very _extra_ when it comes to looking to accomplish any high-level objective in the most difficult ways possible (kidding of course).
+The answer is because I'm very _extra_ when it comes to looking to accomplish any high-level objective in the most difficult ways possible (kidding of course). So maybe this is less of "Blogging the hard way" and more of "Blogging the extra way".
 
 The real reason is that I wanted to establish a blog and thought - experimenting with the use of extra hardware, a variety of Open Source tools, and technologies that could take my thoughts in `Markdown` and translate them to web friendly contexts - could be the gateway towards getting me started (See the _extra_)
 

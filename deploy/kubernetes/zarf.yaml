@@ -2,7 +2,7 @@ kind: ZarfPackageConfig
 metadata:
   name: blog-cluster
   description: "Cluster for serving my personal blog"
-  version: 0.0.1
+  version: 0.0.2
   architecture: arm64
 
 # variables:
@@ -38,6 +38,14 @@ components:
 
 # https://github.com/brandtkeller/zarf-packages/tree/main/cloudflare-tunnel
   - name: import-cloudflare-tunnel
+    manifests:
+    - name: network-policies
+      namespace: cloudflare-tunnel
+      files:
+      - netpols/default-deny.yaml
+      - netpols/tunnel/dns-egress.yaml
+      - netpols/tunnel/public-egress.yaml
+      - netpols/tunnel/blog-egress.yaml
     import:
       name: cloudflare-tunnel
       url: oci://ghcr.io/brandtkeller/zarf/cloudflare-tunnel:0.0.2-skeleton
@@ -54,6 +62,11 @@ components:
 ## TODO - containerports - configmap - antiaffinity - zarf ignore 
   - name: nginx-hugo
     manifests:
+    - name: network-policies
+      namespace: blog
+      files:
+      - netpols/default-deny.yaml
+      - netpols/blog/https-ingress.yaml
     - name: nginx
       namespace: blog
       files:
