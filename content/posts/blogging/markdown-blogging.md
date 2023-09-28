@@ -1,9 +1,12 @@
 ---
 title: "Markdown Blogging"
-date: 2023-09-24T20:36:38-07:00
+date: 2023-09-28T08:00:38-07:00
 tags: ["Hugo", "Markdown"]
-draft: true
+series: "blogging"
+draft: false
 ---
+
+![](/images/markdown-blogging.png)
 
 Given the wide-array of available options for where to write and host blog articles - what lead me to Hugo and the markdown -> html translation workflow you might ask? It really comes down to knowing how I operate and what would make this venture successful.... 
 
@@ -18,6 +21,8 @@ Or rather as is most common with the way that inspiration finds its way into my 
 - Create a `new site`
 - Pick a pre-created theme
 - Start writing in `markdown`
+
+This ^ is what I did. It can be as easy or fancy as you make it.
 
 ## Optimize for _you_
 
