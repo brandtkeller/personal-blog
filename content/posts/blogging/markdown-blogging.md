@@ -1,6 +1,6 @@
 ---
 title: "Markdown Blogging"
-date: 2023-09-28T08:00:38-07:00
+date: 2023-09-28T06:00:00-07:00
 tags: ["Hugo", "Markdown"]
 series: "blogging"
 draft: false
