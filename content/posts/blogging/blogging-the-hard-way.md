@@ -1,7 +1,7 @@
 ---
 title: "Blogging - the hard way"
 date: 2023-09-23T11:30:34-07:00
-tags: ["Kubernetes", "Hugo", "Nginx", "Homelab"]
+tags: ["Kubernetes", "Hugo", "Nginx", "Homelab", "Experiment"]
 series: "blogging"
 draft: false
 ---

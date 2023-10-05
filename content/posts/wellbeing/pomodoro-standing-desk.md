@@ -1,16 +1,18 @@
 ---
 title: "Pomodoro and the Standing Desk"
-date: 2023-10-04T05:30:00-07:00
-tags: ["Wellbeing", "Experiment]
+date: 2023-10-05T05:30:00-07:00
+tags: ["Wellbeing", "Experiment"]
 series: "Wellbeing"
-draft: true
+draft: false
 ---
 
-![]()
+![](/images/Pomodoro.jpeg)
 
 Sounds like a neat story title right?
 
-The more you learn about me - the more you will see the experimentation is how I approach all facets of my life. From day to day learning and work, to my mental and physical wellbeing, the journey towards my daily %1 better never stops.
+The more you learn about me - the more you will see the experimentation is how I approach all facets of my life. From day to day learning and work, to my mental and physical wellbeing, the journey towards my daily %1 better never stops. 
+
+You'll notice the `Experiment` tag across different series or blog post categories - 
 
 Please note: I am not a health or wellness expert - these are just steps that work for me (or for which I experiment with daily).
 
