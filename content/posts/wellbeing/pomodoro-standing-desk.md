@@ -12,7 +12,7 @@ Sounds like a neat story title right?
 
 The more you learn about me - the more you will see the experimentation is how I approach all facets of my life. From day to day learning and work, to my mental and physical wellbeing, the journey towards my daily %1 better never stops. 
 
-You'll notice the `Experiment` tag across different series or blog post categories - 
+You'll notice the `Experiment` tag across different series or blog post categories - This tag illustrates the many facets of life where I put experimentation into place.
 
 Please note: I am not a health or wellness expert - these are just steps that work for me (or for which I experiment with daily).
 
