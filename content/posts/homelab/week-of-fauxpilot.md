@@ -3,7 +3,7 @@ title: "A week of FauxPilot"
 date: 2023-10-09T05:30:00-07:00
 tags: ["Experiment", "AI"]
 series: "Homelab"
-draft: true
+draft: false
 ---
 
 ![](/images/fauxpilot.png)
@@ -27,11 +27,11 @@ Take for instance writing a struct in Golang:
 
 I can be creating something entirely unique and it still can interpret the code and understand what needs to come next and using the right language. 
 
-After writing some new structs for a project I am working on - it's picking up on common fields and with zero prompting is making the suggestion:
+After writing some new structs for a project I am working on - it's picking up on common fields, and with zero prompting, is making the suggestion:
 
 ![](/images/fauxpilot-in-action-2.png)
 
-Even now as I typw this blog - FauxPilot is suggesting what I might be writing next. 
+Even now as I type this blog - FauxPilot is suggesting what I might be writing next. 
 
 ## Deployment
 
@@ -107,10 +107,10 @@ The server did reasonably well - at one point it stopped working and I had to re
 
 My thoughts?
 
-There doesn't seem to be a lot of activity in the community and we well know there have been a mass of advances in the model community as of this year. FauxPilot works well and I've been enjoying it as a means to put my otherwide idle GPU to use. 
+There doesn't seem to be a lot of activity in the community and we well know there have been a mass of advances in the model community as of this year. FauxPilot works well and I've been enjoying it as a means to put my otherwise idle GPU to use. 
 
 ## Next Steps
 
-Personally I'm going to keep experimenting with FauxPilot and other technologies in the self-hosted / airgapped codegen space. Subjectively seeing if I can perceive any differences across technologies but also continuing to learn more about the inner-workings of models. There is a lot to digest here.
+Personally I'm going to keep experimenting with FauxPilot and other technologies in the self-hosted / air-gapped codegen space. Subjectively seeing if I can perceive any differences across technologies but also continuing to learn more about the inner-workings of models. There is a lot to digest here.
 
 Optimally I'd love to get more hardware to support larger models and incorporate a codegen assistant as something attuned to a "serverless" experience, Thinking KNative and some codegen backend.  
