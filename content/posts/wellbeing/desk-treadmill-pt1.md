@@ -69,8 +69,16 @@ So long story extremely long - I spent a month experimenting with having a walki
 
 ![](/images/desk-treadmill-data.png)
 
+I wasn't going to write this without some hard data:
+
 Over the last 4 weeks - I walked a total of 23 times for a total distance of 32.3 Miles.
+
+Where did this data come from? I certainly didn't track it manually. Stay tuned for more on this project to include hardware hacks and data collection.
 
 ### Thoughts
 
 I personally really like having a walking pad directly under my desk - ready to go at a moments notice. My body feels more fluid and I do believe there are advantages to the focus time I have after a good walking session.
+
+### Conclusion
+
+Getting up and moving is contributing to my day to day perceived satisfaction. Experimenting with existing resources helps with the decision making process. Lastly some ingenuity and creativity can move existing platforms to serve the outcomes you wish to attain.
