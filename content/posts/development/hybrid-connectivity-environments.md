@@ -1,16 +1,16 @@
 ---
 title: "Designing for the Air Gap with a Hybrid Lens"
 date: 2023-10-19T05:30:00-07:00
-tags: ["Technology", "Airgap"]
+tags: ["Development", "Airgap"]
 series: "Development"
-draft: true
+draft: false
 ---
 
-![]()
+![](/images/software-design.jpeg)
 
 For quite some time now I've helped build platforms and the focus has always been to deliver value to the end user first and foremost. What capabilities would we enable and how great the future would be amiright?
 
-Early in this learning process was the role that dependencies played. The more you layered dependencies on top of one another - the greater the mountain of said dependencies grew from something maintainable to an overgrown monstrosity that threatened t break at any run of CI you introduced.
+Early in this learning process was the role that dependencies played. The more you layered dependencies on top of one another - the greater the mountain of said dependencies grew from something maintainable to an overgrown monstrosity that threatened to break at any run of CI you introduced.
 
 ## System Design
 
@@ -26,7 +26,7 @@ I'm not going to bore you with the details, but there was a revelation at one po
 
 That's a pretty loaded statement with many nuances and something we can argue all day about. The real moment of clarity for me was seeing how Airgap is usually the most difficult to design a platform around. 
 
-But once you do and once you do it well, it then resets the counter on enhancements you can build around. You have to take intimate stock of your dependencies such that you always have what you need - but it works anywhere you take it. 
+But once you do and once you do it well, it then resets the counter on enhancements you can build. You have to take intimate stock of your dependencies such that you always have what you need - but it works anywhere you take it. 
 
 Then comes the introduction of "that's great, but I'm in the cloud". That's great, these things are not mutually exclusive and you can still apply the fundamentals of air gap to your connected environment.
 
@@ -58,7 +58,20 @@ So I use [Zarf](zarf.dev) to provide that internal image registry in my cluster 
 
 BUT Certificates are another story. I'm not messing with self-signed certificates for local use. Wife approval factor on these services needs to be high, and it needs to feel like they are any other subscription offering.
 
-So I pawn that off to Cert-Manager and letsencrypt for a valid domain that I own. Is there risk here? certainly, the certificates renew every 90 days and if some piece of the puzzle got miswired then it might break one day - but that is a risk I am willing to accept for a superior operation.
+So I pawn that off to Cert-Manager and letsencrypt for a valid domain that I own. Is there risk here? certainly, the certificates renew every 90 days and if some piece of the puzzle got mis-wired then it might break one day - but it only affects the access to resources as opposed to the resources/runtime themselves. This is a risk I am willing to accept to improve user experience and remove the headache of keeping certificates up-to-date.
 
 ## Meaningful Airgap
-These are things we've seen many different implementations around - and many of them are PAINFUL
+These are things we've seen many different implementations around - and many of them are PAINFUL. Under-baked airgap implementations tend to either rely upon some expected of the puzzle that requires substantial setup to support or simply lack any vision for what it means to both deploy AND MAINTAIN an application or platform to na air gapped environment. 
+
+Then comes the application itself - does it really support having no connectivity to the internet? maybe it runs yes, but does it operate effectively. I've seen a number of tools that contain documentation for getting the application into the air-gapped location but lack fundamental design around the data it requires to operate.
+
+Consider any security scanning tool that operates off of the ability to ingest vulnerability feeds.
+- Does the tool break entirely when it cannot access the feeds?
+- Does the tool have mechanisms for injecting feed updates with a good user experience?
+- Does the above allow for any automation as the data becomes accessible?
+
+## Making things suck less
+
+Maybe a bit of a soapbox, but we have to do better and we can't be relying upon some duct-tape to take the SaaS of a tool and make it portable and then make it operational in an air gap. 
+
+Designing for the Air Gap first brings a lot of control over what you are ultimately dependent on and - with the hybrid lens - highlights where you make explicit choices to allow dependency on some external service in the name of enhanced capabilities.
