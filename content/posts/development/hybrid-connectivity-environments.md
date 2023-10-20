@@ -14,7 +14,7 @@ Early in this learning process was the role that dependencies played. The more y
 
 ## System Design
 
-I am not afraid to admit that I lacked the foresight to understand the implications of designing capabilities on a foundation that had no solidified. We want to rapidly prototype and demonstrate that we could essentially create a reproducible result for the thing everyone was doing 100x over without any sharing of resources of communication.
+I am not afraid to admit that I lacked the foresight to understand the implications of designing capabilities on a foundation that had not solidified. We want to rapidly prototype and demonstrate that we could essentially create a reproducible result for the thing everyone was doing 100x over without any sharing of resources of communication.
 
 There are some serious flaws at play here - but engineers tend to keep pushing to build, build, build. 
 
