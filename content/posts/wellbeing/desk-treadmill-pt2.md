@@ -1,6 +1,6 @@
 ---
 title: "Troubleshooting the Desk Treadmill Experiment"
-date: 2023-10-26T05:30:00-07:00
+date: 2023-10-30T05:30:00-07:00
 tags: ["Wellbeing", "Experiment", "treadmill"]
 series: "Wellbeing"
 draft: true

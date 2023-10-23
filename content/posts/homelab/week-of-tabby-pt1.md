@@ -1,9 +1,9 @@
 ---
 title: "A week of Tabby"
-date: 2023-10-22T05:30:00-07:00
+date: 2023-10-23T05:30:00-07:00
 tags: ["Experiment", "AI"]
 series: "Homelab"
-draft: true
+draft: false
 ---
 
 ![](/images/tabby.png)
@@ -16,14 +16,16 @@ Say hello to my new coding assistant - [Tabby](https://github.com/tabbyml/tabby)
 
 For those who haven't read my previous review of [FauxPilot](), I have been experimenting with Open Source CodeGen AI for the last few months. Using an old desktop I convert to Proxmox, I dedicated my RTX 2080 to an Ubuntu VM that is my current test-bed for AI code generation tooling. 
 
-## Enter Tabby
+## Footprint (Or paws in this case?)
+
+Tabby image vs FauxPilot images:
 
 ![](/images/tabby-container-image.png)
 
 The footprint of tabby comes with two nuances:
 - The container image at around 2.12GB
 - The model that is downloaded (which varies by model size)
-  - The 3B model I am running is around 7GB
+  - The 3B model I am running is around 6GB
 
 This is insane! a 2gb footprint is magnitudes easier to transfer and use as opposed to a 25GB+ container image.
 

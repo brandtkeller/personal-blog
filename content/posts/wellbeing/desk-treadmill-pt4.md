@@ -1,6 +1,6 @@
 ---
-title: "Treadmill Experiment - where is my data?"
-date: 2023-11-03T05:30:00-07:00
+title: "Treadmill Experiment - here is my data!"
+date: 2023-11-06T05:30:00-07:00
 tags: ["Wellbeing", "Experiment", "treadmill"]
 series: "Wellbeing"
 draft: true

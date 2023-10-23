@@ -1,6 +1,6 @@
 ---
 title: "What do I mean by an Open Source Blog?"
-date: 2023-10-23T05:30:00-07:00
+date: 2023-10-26T05:30:00-07:00
 tags: ["OpenSource"]
 series: "open-source"
 draft: true
