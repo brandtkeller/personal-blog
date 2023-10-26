@@ -3,7 +3,7 @@ title: "Tabby and some RAG"
 date: 2023-10-26T05:30:00-07:00
 tags: ["Experiment", "AI"]
 series: "Homelab"
-draft: true
+draft: false
 ---
 
 ![](/images/tabby-rag.png)
