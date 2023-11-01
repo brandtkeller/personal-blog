@@ -3,19 +3,19 @@ title: "What do I mean by an Open Source Blog?"
 date: 2023-10-30T05:30:00-07:00
 tags: ["OpenSource"]
 series: "open-source"
-draft: true
+draft: false
 ---
 
 ![](/images/opensource.png)
 
-When I set out to created this blog, as noted in my [Blogging the hard way]() article, I had a couple key objectives that I wanted to pursue:
+When I set out to created this blog, as noted in my [Blogging the hard way](https://brandtkeller.com/posts/blogging/blogging-the-hard-way/) article, I had a couple key objectives that I wanted to pursue:
 
 - Reproducible and static
   - Meaning highly portable
 - Minimal configuration required
   - Markdown content and generate
 
-And most importantly - Open - as in anyone can look at the [repository]() and see every single detail that makes this site run. If I inspire even one person to have some fun exploring [Hugo]() and the adventure that is serving content to the world from the comfort of their own home - then I'd call it a success.
+And most importantly - Open - as in anyone can look at the [repository](https://github.com/brandtkeller/personal-blog) and see every single detail that makes this site run. If I inspire even one person to have some fun exploring [Hugo](hugo.io) and the adventure that is serving content to the world from the comfort of their own home - then I'd call it a success.
 
 ## Openness 
 
@@ -24,7 +24,7 @@ Why the emphasis on `open` though?
 We live in a world where information is not freely available to all. There are those without access for which there is still a long journey ahead. But there are those who are censored from access to both the production and consumption of information that goes against the very philosophy that myself and others hold true - `A free and secure world`.
 
 ## Portability
-Part of the experiment that interests me and will be very difficult to understand is how to potentially overcome those hurdles but also pave the way for others to explore a means of producing content. 
+Part of the experiment that interests me, and will be very difficult to understand, is how to potentially overcome those hurdles but also pave the way for others to explore a means of producing content. 
 
 This whole repository is portable in nature - should someone come across it - they can clone and run it on their local machine. Maybe you don't have a local machine but more of a shared resource - it can go there too. Need it in the airgap? package and deploy it there no-problem. 
 
@@ -32,7 +32,7 @@ There are a number of solutions that solve for a similar problem. Essentially ar
 
 ## Collaboration
 
-Another idea - feel free to steal it - was the creation of an Open Source organization for the specific purpose of producing content that centers around solving for problems that serve the greater good/mission. There is a lot happening in open-source and representation matters to everyone. I believe we're missing more insight from those deep into the mission implementation who live and breath developing to solve problems as opposed to business objectives. 
+Another idea - feel free to steal it - was the creation of an Open Source organization for the specific purpose of producing content that centers around solving for problems that serve the greater good/mission. There is a lot happening in open-source and representation matters to everyone. I believe we're missing more insight from those deep into the mission implementation who live and breath developing to solve problems that influence peoples lives as opposed to sales of some product.
 
 Sometimes it isn't always clean - but the data could be an enabler for someone building a solution that enables the original problem to no longer be relevant. 
 
