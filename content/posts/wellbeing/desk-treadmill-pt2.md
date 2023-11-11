@@ -1,9 +1,9 @@
 ---
 title: "Troubleshooting the Desk Treadmill Experiment"
-date: 2023-11-02T05:30:00-07:00
+date: 2023-11-06T05:29:00-07:00
 tags: ["Wellbeing", "Experiment", "treadmill"]
 series: "Wellbeing"
-draft: true
+draft: false
 ---
 
 ![](/images/underdesk.jpg)

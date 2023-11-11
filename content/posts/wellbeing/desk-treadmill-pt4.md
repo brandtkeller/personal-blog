@@ -1,6 +1,6 @@
 ---
 title: "Treadmill Experiment - here is my data!"
-date: 2023-11-09T05:30:00-07:00
+date: 2023-11-16T05:30:00-07:00
 tags: ["Wellbeing", "Experiment", "treadmill"]
 series: "Wellbeing"
 draft: true
@@ -10,7 +10,7 @@ draft: true
 
 What do we love? Data!
 
-Especially when the data is fun to aggregate and process. 
+Especially when the data is fun to aggregate and process. Finally some code!
 
 I've been using a free Strava account for years now. It tracks my workouts and gives me some high-level information to share with friends and followers. 
 
@@ -40,6 +40,7 @@ For those who want to look at the code:
       "net/http"
       "strconv"
       "strings"
+      "time"
 
       "github.com/spf13/viper"
     )
@@ -71,13 +72,24 @@ For those who want to look at the code:
       StravaRefreshToken string `mapstructure:"STRAVA_REFRESH_TOKEN"`
     }
 
+    type historicalData struct {
+    }
+
+    func (hd *historicalData) GetData() (int, error) {
+      return 0, nil
+    }
+
+    func (hd *historicalData) StoreData(year int, month time.Month, distance float64) error {
+      return nil
+    }
+
     func main() {
 
       // setup logging
       logger := log.Default()
 
       var config envVars
-      // Load environment configuration - IE my secret tokens
+      // Load environment configuration - IE secret tokens
       viper.SetConfigName("strava")
       viper.AddConfigPath(".")
       viper.SetConfigType("env")
@@ -170,7 +182,7 @@ For those who want to look at the code:
         }
 
         if len(pageActivities) == 200 {
-          // if we get a total of 200 activities, there may be 
+          // if we get a total of 200 activities, there may be
           logger.Printf("Page %d retrieved with %d activities\n", page, len(pageActivities))
           page++
           activities = append(activities, pageActivities...)
@@ -182,7 +194,7 @@ For those who want to look at the code:
       }
 
       // Log total number of activities
-      logger.Printf("Number of activities: %d\n", len(activities))
+      logger.Printf("Total Number of activities: %d\n", len(activities))
 
       var deskCount int
       var distance float64
@@ -197,10 +209,9 @@ For those who want to look at the code:
       // Log number of desk treadmill activities
       logger.Printf("Desk Treadmill Activities: %d\n", deskCount)
       // Log number of miles after converting meters to miles
-      logger.Printf("Distance: %f Miles\n", distance*0.000621371)
+      logger.Printf("Total Distance: %f Miles since September 12th \n", distance*0.000621371)
 
     }
-
   ```
 </details>
 
@@ -211,13 +222,13 @@ If I were not writing this for a specific purpose, I would have done a lot more.
 ## The results
 
 ```
-2023/10/22 09:40:12 Authenticated - Preparing to get activities by page of 200
-2023/10/22 09:40:15 Page 1 retrieved with 200 activities
-2023/10/22 09:40:18 Page 2 retrieved with 200 activities
-2023/10/22 09:40:21 Page 3 retrieved with 102 activities
-2023/10/22 09:40:21 Number of activities: 502
-2023/10/22 09:40:21 Desk Treadmill Activities: 29
-2023/10/22 09:40:21 Distance: 41.583390 Miles
+2023/11/10 20:33:23 Authenticated - Preparing to get activities by page of 200
+2023/11/10 20:33:27 Page 1 retrieved with 200 activities
+2023/11/10 20:33:34 Page 2 retrieved with 200 activities
+2023/11/10 20:33:38 Page 3 retrieved with 122 activities
+2023/11/10 20:33:38 Total Number of activities: 522
+2023/11/10 20:33:38 Desk Treadmill Activities: 42
+2023/11/10 20:33:38 Total Distance: 63.067106 Miles since September 12th 
 ```
 
 ## Conclusion
