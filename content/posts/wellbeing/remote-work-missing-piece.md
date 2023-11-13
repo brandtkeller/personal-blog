@@ -1,15 +1,15 @@
 ---
 title: "A missing piece of remote work culture"
-date: 2023-11-12T05:30:00-07:00
+date: 2023-11-13T03:30:00-07:00
 tags: ["Wellbeing", "Remote", "Remote Work"]
 series: "Wellbeing"
-draft: true
+draft: false
 ---
 
 ![](/images/remote-work.png)
 
 
-I will always admit that I love everything that is working for a fully remote job. I've battle tested the 2+ hr commute daily for longer than I cared to admit, and that time feels like a huge part of my life has been wasted. Working remotely has offered me time to focus on the things that matter when they matter. 
+I will always admit that I love everything that is working for a fully remote company. I've battle tested the 2+ hr commute daily for longer than I cared to admit, and that time feels like a huge part of my life has been wasted. Working remotely has offered me time to focus on the things that matter, when they matter. 
 
 Focusing on work and the tasks at hand - with zero interruption - while also being able to inject random bouts of family time throughout the day that I would have otherwise not had the ability to do. This is a huge part of my life. Snack time with my daughter when I've been banging my head against the wall for hours.
 
@@ -19,7 +19,7 @@ I could honestly gush about remote work for pages on pages of text on end. Maybe
 
 ## So what is missing?
 
-I have been thinking about this more and more as of late. We pride ourselves on the ability to be working on work when work matters most and ensuring we are also fulfilling our duties as a family member and friend to others. I've really liked the outlook that "work-life balance" is the wrong way to think about how to manage both - and rather when you are passionate about what you do and your values align across the board it can be a mesh of the two constantly. I fall into this bucket and I may plan to discuss this more in the future. 
+I have been thinking about this more and more as of late. We pride ourselves on the ability to be working on work when work matters most and ensuring we are also fulfilling our duties as a family member and friend to others. I've really liked the outlook that "work-life balance" is the wrong way to think about how to manage both - and rather when you are passionate about what you do and your values align across the board it can be a mesh of the two. I fall into this bucket and I may plan to discuss this more in the future. 
 
 But as such, we continually pride ourselves on disconnecting from work when there is no looming priority to otherwise be using your free time work extra. I don't disagree with this stance - we want to prevent burnout - but I believe this has to be a personal choice as much as a responsibility to your own health and wellness. 
 
