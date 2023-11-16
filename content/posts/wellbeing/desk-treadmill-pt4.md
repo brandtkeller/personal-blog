@@ -3,10 +3,10 @@ title: "Treadmill Experiment - here is my data!"
 date: 2023-11-16T05:30:00-07:00
 tags: ["Wellbeing", "Experiment", "treadmill"]
 series: "Wellbeing"
-draft: true
+draft: false
 ---
 
-![]()
+![](/images/strava-activities.png)
 
 What do we love? Data!
 
@@ -222,13 +222,13 @@ If I were not writing this for a specific purpose, I would have done a lot more.
 ## The results
 
 ```
-2023/11/10 20:33:23 Authenticated - Preparing to get activities by page of 200
-2023/11/10 20:33:27 Page 1 retrieved with 200 activities
-2023/11/10 20:33:34 Page 2 retrieved with 200 activities
-2023/11/10 20:33:38 Page 3 retrieved with 122 activities
-2023/11/10 20:33:38 Total Number of activities: 522
-2023/11/10 20:33:38 Desk Treadmill Activities: 42
-2023/11/10 20:33:38 Total Distance: 63.067106 Miles since September 12th 
+2023/11/16 08:53:27 Authenticated - Preparing to get activities by page of 200
+2023/11/16 08:53:31 Page 1 retrieved with 200 activities
+2023/11/16 08:53:39 Page 2 retrieved with 200 activities
+2023/11/16 08:53:45 Page 3 retrieved with 123 activities
+2023/11/16 08:53:45 Total Number of activities: 523
+2023/11/16 08:53:45 Desk Treadmill Activities: 43
+2023/11/16 08:53:45 Total Distance: 64.614320 Miles since September 12th
 ```
 
 ## Conclusion
