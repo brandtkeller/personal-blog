@@ -1,12 +1,12 @@
 ---
 title: "Automating my home"
 date: 2023-11-23T05:30:00-07:00
-tags: ["Homelab", "Home Assistant", "zwave"]
+tags: ["Homelab", "Home Assistant", "Zwave"]
 series: "Homelab"
-draft: true
+draft: false
 ---
 
-For a very long time I have always been fascinated with home automation. It's soo much more than just turnin a light on and off with my phone. It's about adding intelligence to my home that makes the lives of my family better by removing unnecessary tasks and optimizing how we operate. 
+For a very long time I have always been fascinated with home automation. It's soo much more than just turning a light on and off with my phone. It's about adding intelligence to my home that makes the lives of my family better by removing unnecessary tasks and optimizing how we operate. 
 
 ## Example
 
@@ -22,7 +22,7 @@ I'll discuss my setup as there are an unlimited amount of ways to get this setup
 
 **Note:** If you are interested in an streamlined package for setting up Home-Assistant on a bare piece of hardware, please let me know. I am considering it. (Thinking something like 4 cpu/8gb ram).
 
-You'll need somewhere to deploy Home Assistant - for me I use self-hosting as a chance to learn more about different parts of Kubernetes and application orchestration that may overlap in my work. So I have a Kubernetes cluster solely for deploying home services. There was a lack of popular and supported home assistant Helm charts - so I ended up starting a repository for collection of helm charts I use for Home Assistant. You can fint it [here](https://github.com/brandtkeller/home-assistant-helm).
+You'll need somewhere to deploy Home Assistant - for me I use self-hosting as a chance to learn more about different parts of Kubernetes and application orchestration that may overlap in my work. So I have a Kubernetes cluster solely for deploying home services. There was a lack of popular and supported home assistant Helm charts - so I ended up starting a repository for collection of helm charts I use for Home Assistant. You can find it [here](https://github.com/brandtkeller/home-assistant-helm).
 
 Once deployed you'll configure a number of things - I'm going to add an in-depth guide for that soon - as it contains a lot of details.
 
@@ -41,7 +41,9 @@ To solve for the first focus item - I opted to find a protocol supported by many
 
 ## De-coupled management
 
-To solve for the second focus item - I opted to deploy [zwave-js-ui]() in multiple key locations such that I could control data retention for each location separately. Should I need to recover from a disaster I can simply re-deploy zwave-js-ui and migrate my data and hook it up to any home assistant (new or existing) instance and be ready to automate. 
+To solve for the second focus item - I opted to deploy [zwave-js-ui](https://github.com/zwave-js/zwave-js-ui) in multiple key locations such that I could control data retention for each location separately. Should I need to recover from a disaster I can simply re-deploy zwave-js-ui and migrate my data and hook it up to any home assistant (new or existing) instance and be ready to automate. 
+
+**Note:** The Link above for the helm chart also includes a chart for zwave-js-ui
 
 ## What does it look like?
 
@@ -56,7 +58,11 @@ Both of these are deployed in separate locations and can be controlled from home
 
 ## In action
 
-Take for example the office Dashboard - I have automation setup such that when I place my phone in do-not-disturb mode I will automatically turn on the outside office light - which is an RGB bulb - and set it to red. Now my family knows that I'm in a meeting and to enter quietly should they want to come say hi. 
+Take for example the office Dashboard - I have automation setup such that when I place my phone in do-not-disturb mode I will automatically turn on the outside office light - which is an RGB bulb - and set it to red. Now my family knows that I'm in a meeting and to enter quietly should they want to come join me.
+
+I no longer fiddle with the outdoor lighting timing - rather Home Assistant uses my location sunset/sunrise time and turns the light on/off accordingly.
+
+The HVAC example is where I initially began - but I am also moving to other ad-hoc monitoring solutions such as a localized security alarm system (Alarmo) that can ensure all exterior doors (both on my home and office) are locked (with smart deadbolt locks).
 
 ## Conclusion
 
