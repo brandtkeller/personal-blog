@@ -3,7 +3,7 @@ title: "What could you do with an extra 500 hours?"
 date: 2023-11-30T05:30:00-07:00
 tags: ["Wellbeing", "Mental Health"]
 series: "Wellbeing"
-draft: true
+draft: false
 ---
 
 ![](/images/commute-office.jpg)
