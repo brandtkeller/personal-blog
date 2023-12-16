@@ -1,0 +1,17 @@
+kind: ZarfPackageConfig
+metadata:
+  name: bkcv-tunnel
+  description: "Tunnel for bkcv domain"
+  version: 0.0.1
+  architecture: arm64
+
+components:
+# https://github.com/brandtkeller/zarf-packages/tree/main/cloudflare-tunnel
+  - name: import-cloudflare-tunnel
+    import:
+      name: cloudflare-tunnel
+      url: oci://ghcr.io/brandtkeller/zarf/cloudflare-tunnel:0.0.2-skeleton
+    charts:
+    - name: cloudflare-tunnel
+      releaseName: bkcv-cloudflared-tunnel
+

@@ -14,3 +14,5 @@ This Blog is built and hosted on:
     - Cloudflared Tunnel
     - Nginx manifests
         - Using the image built in the root of this repository
+## Setting up the cloudflare tunnel
+

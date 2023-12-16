@@ -27,14 +27,19 @@ spec:
         - containerPort: 8443
         - containerPort: 8080
         volumeMounts:
-        - mountPath: /etc/nginx/ssl
+        - mountPath: /etc/nginx/ssl/site
           name: secret-volume
+        - mountPath: /etc/nginx/ssl/bkcv
+          name: bkcv-secret-volume
         - mountPath: /etc/nginx/conf.d
           name: configmap-volume
       volumes:
       - name: secret-volume
         secret:
           secretName: blog-brandtkeller-tls
+      - name: bkcv-secret-volume
+        secret:
+          secretName: bkcv-brandtkeller-tls
       - name: configmap-volume
         configMap:
           name: nginx-conf

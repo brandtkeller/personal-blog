@@ -2,7 +2,7 @@ kind: ZarfPackageConfig
 metadata:
   name: blog-cluster
   description: "Cluster for serving my personal blog"
-  version: 0.0.2
+  version: 0.0.3
   architecture: arm64
 
 # variables:
@@ -56,6 +56,7 @@ components:
       namespace: blog
       files:
       - configs/nginx/certificate.yaml
+      - configs/nginx/bkcv-certificate.yaml
 
 ## Insert nginx component here
 ## Add in a wait command for ready?

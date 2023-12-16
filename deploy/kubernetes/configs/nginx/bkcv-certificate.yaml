@@ -1,10 +1,10 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: blog-brandtkeller-cert
+  name: bkcv-brandtkeller-cert
 spec:
   # Secret names are always required.
-  secretName: blog-brandtkeller-tls
+  secretName: bkcv-brandtkeller-tls
 
   # secretTemplate is optional. If set, these annotations and labels will be
   # copied to the Secret named example-com-tls. These labels and annotations will
@@ -36,8 +36,8 @@ spec:
   #   - client auth
   # At least one of a DNS Name, URI, or IP address is required.
   dnsNames:
-    - "brandtkeller.com"
-    - "www.brandtkeller.com"
+    - "bekindchooseviolence.com"
+    - "www.bekindchooseviolence.com"
   # Issuer references are always required.
   issuerRef:
     name: letsencrypt

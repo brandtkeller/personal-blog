@@ -14,5 +14,11 @@ spec:
       podSelector:
         matchLabels:
           app.kubernetes.io/name: cloudflare-tunnel
+    - namespaceSelector:
+        matchLabels:
+          kubernetes.io/metadata.name: cloudflare-tunnel
+      podSelector:
+        matchLabels:
+          app.kubernetes.io/name: cloudflare-tunnel
     ports:
     - port: 8443
