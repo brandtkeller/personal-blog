@@ -1,6 +1,6 @@
 ---
 title: "Be Kind - Choose Violence"
-date: 2023-12-18T11:30:34-07:00
+date: 2023-12-18T05:30:00-07:00
 tags: ["Blogging", "Experiment"]
 series: "blogging"
 draft: false
@@ -36,7 +36,7 @@ Often we become beholden to practices that do nothing but slow progress and inno
 
 Repeat - and when you hit those blockers - IE code review or some other time commitment - find out how to next best pivot and continue down a new thread.
 
-Code stuck in review? Ping - be direct. No other options available? Execute on that next task with what you know now. Execute on next highest priority for your down. Know what it is you want to accomplish each day and execute. 
+Code stuck in review? Ping - be direct. No other options available? Execute on that next task with what you know now. Execute on next highest priority. Know what it is you want to accomplish each day and execute. 
 
 Finally instill this proactive behavior in others. Surround yourself with those who are Mission-Focused and you'll find that the progress you can have in a day and the ways you can challenge each-other are mind-boggling.  
 
@@ -45,7 +45,9 @@ Finally instill this proactive behavior in others. Surround yourself with those 
 > ‘Be polite, be professional, but have a plan to kill everybody you meet.’
 - General Mattis
 
-Treat others with respect - Assume positive intent - Execute/Execute/Execute
+Treat others with respect - Remove your ego - Assume positive intent - Execute/Execute/Execute
+
+It's not one or the other - rather it is a pursuit of making myself better each day by engaging meaningfully with others and executing on the things I want to accomplish.
 
 ## Nerd Notes - New domain whodis
 
