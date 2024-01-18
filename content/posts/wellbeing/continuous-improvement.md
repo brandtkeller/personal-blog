@@ -8,9 +8,9 @@ draft: false
 
 ![](/images/jigsaw-watch.jpeg)
 
-New Year - same me. Everyone has a different opinion on Resolutions and aiming to be a better person/spouse/parent/etc. It's admiral to have that mindset.
+New Year - same me. Everyone has a different opinion on Resolutions and aiming to be a better person/spouse/parent/etc. It's admirable to have that mindset.
 
-I'm far from alone in taking the stance that I am no a resolutions-person. I both don't wait until the new years to start thinking about resolutions and I don't wait until the new years to start doing them. I do it all the time - continuously. 
+I'm far from alone in taking the stance that I am not a resolutions-person. I both don't wait until the new years to start thinking about resolutions and I don't wait until the new years to start doing them. I do it all the time - continuously. 
 
 That %1 better each day holds no bounds on what we can achieve if we continue to compound it. 
 
@@ -40,7 +40,9 @@ GitHub manages my development efforts to some degree and I can derive insights f
 
 There are threads that I have been picking-away at for some time and others within reach that I want to explore more as the ideas solidify. I'm not making a resolution to be better because it's the new year - rather I demand of myself the discipline to continually reach for systems that make we more proficient in many different domains. 
 
-## Conclusion
+## Continuous has to start somewhere
+
+Why not today?
 
 I believe breaking bad habits and creating new good habits can be a great overarching goal here. Sometimes that is daunting and so I'd rather frame the act as that of recording current state and reflecting more about where you want to be / the person you want to be and being able to adapt as you learn more. 
 
