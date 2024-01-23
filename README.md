@@ -14,3 +14,14 @@ See the zarf [manifest](./deploy/kubernetes/zarf.yaml) for a background of the s
 ## Theme
 
 Poison
+
+## Clone
+
+In order to setup this repo locally from a fresh clone you'll need to:
+```shell
+git clone <this repo>
+cd personal-blog
+git submodule init
+git submodule update
+hugo serve
+```
