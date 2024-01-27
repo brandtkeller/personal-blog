@@ -3,10 +3,10 @@ title: "OSCAL from a Developers Perspective"
 date: 2024-01-23T05:30:00-07:00
 tags: ["OSCAL", "Development", "RMF"]
 series: "Development"
-draft: true
+draft: false
 ---
 
-![]()
+![](/images/audit-as-code.png)
 
 I'm sure I am not alone here - but at one point in my engineering career I had helped build a platform, and only after building it did we come to the threshold that was - "Has this been evaluated by security". IE traditional silos and the need to evaluate for compliance across controls that may or may not apply. 
 
@@ -40,5 +40,7 @@ Given the discussion that `Trust` has in highly-secure environments - I wanted t
 ## What's next
 
 The world is ours for making better - and I intend to keep exploring the generation of OSCAL artifacts for sake of improving the lives of those in the assessment process but also accelerating the accreditation process and getting functionality to the mission faster.
+
+That said - OSCAL is not easy. There is a learning curve involved and the cognitive burden for those who have OSCAL presented to them can be quite large. I intend to build tooling that lowers cognitive burden 
 
 Are there any competing frameworks I should be looking at? Please reach out and let me know. If Open Source and not tied to any one single suite/application/product - then I am all ears. Data freedom is the driver behind all architectures I am working towards. 
