@@ -1,12 +1,10 @@
 ---
 title: "The role of Open Source GRC Engineering"
-date: 2024-01-29T05:30:00-07:00
+date: 2024-01-28T18:30:00-07:00
 tags: ["OSCAL", "Development", "GRC", "RMF", "Open Source"]
 series: "Development"
-draft: true
+draft: false
 ---
-
-![]()
 
 As a follow on from my previous post from OSCAL, I wanted to take a step back and discuss the role of Open Source GRC Engineering. If we look at traditional GRC tooling - because I do imagine there are GRC platforms today that are not Open Source but are innovating - we've seen interfaces that primarily operates on consuming data and visualizing it. Not a bad business model by any means, but where it can fundamentally fail is defined paths for data to flow.
 
@@ -54,3 +52,8 @@ Please review our work-in-progress and follow-along or weigh-in where you see fi
 
 Document [here](https://docs.google.com/document/d/14pV0ooE40yuo0u_CH-OeWS8lZgMBfxo8F38QRIaKUXY/edit?usp=sharing)
 
+## Call to Action
+
+What standards should we be focusing on? What processes can we really nail down?
+
+When we create something that truly makes someones life easier and improves workflows substantially, we can build better systems and place pressure on those who require manual or outdated processes to updated or replaced. 
