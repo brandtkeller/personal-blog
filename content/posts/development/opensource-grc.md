@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-As a follow on from my previous post from OSCAL, I wanted to take a step back and discuss the role of Open Source GRC Engineering. If we look at traditional GRC tooling - because I do imagine there are GRC platforms today that are not Open Source but are innovating - we've seen interfaces that primarily operates on consuming data and visualizing it. Not a bad business model by any means, but where it can fundamentally fail is defined paths for data to flow.
+As a follow on from my [previous post](https://bekindchooseviolence.com/posts/development/oscal-perspective/) from OSCAL, I wanted to take a step back and discuss the role of Open Source GRC Engineering. If we look at traditional Governance, Risk, and Compliance (GRC) tooling - because I do imagine there are GRC platforms today that are not Open Source but are innovating - we've seen interfaces that primarily operates on consuming data and visualizing it. Not a bad business model by any means, but where it can fundamentally fail is defined paths for data to flow.
 
 We've seen a lot of innovation in a short period of time from cloud native technologies - whereas the governance of them is still often a manual process or the accrediting entity requires specific (and maybe not standardized) information in a specific format. There are many lenses for which to view the variety of problems that we need to solve for in GRC engineering to be successful.
 
