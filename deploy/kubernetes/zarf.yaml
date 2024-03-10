@@ -1,9 +1,9 @@
 kind: ZarfPackageConfig
 metadata:
-  name: blog-cluster
+  name: blog-platform
   description: "Cluster for serving my personal blog"
-  version: 0.0.3
-  architecture: arm64
+  version: 0.0.4
+  architecture: amd64
 
 # variables:
 #   - name: VIP_INTERFACE
@@ -13,20 +13,20 @@ metadata:
 
 
 components:
-  - name: cert-manager-chart
-    charts:
-      - name: cert-manager
-        namespace: cert-manager
-        url: https://charts.jetstack.io
-        version: v1.12.1
-        valuesFiles:
-          - configs/cert-manager/values.yaml
-    images:
-      - quay.io/jetstack/cert-manager-controller:v1.12.1
-      - quay.io/jetstack/cert-manager-webhook:v1.12.1
-      - quay.io/jetstack/cert-manager-cainjector:v1.12.1
-      - quay.io/jetstack/cert-manager-acmesolver:v1.12.1
-      - quay.io/jetstack/cert-manager-ctl:v1.12.1
+  # - name: cert-manager-chart
+  #   charts:
+  #     - name: cert-manager
+  #       namespace: cert-manager
+  #       url: https://charts.jetstack.io
+  #       version: v1.12.1
+  #       valuesFiles:
+  #         - configs/cert-manager/values.yaml
+  #   images:
+  #     - quay.io/jetstack/cert-manager-controller:v1.12.1
+  #     - quay.io/jetstack/cert-manager-webhook:v1.12.1
+  #     - quay.io/jetstack/cert-manager-cainjector:v1.12.1
+  #     - quay.io/jetstack/cert-manager-acmesolver:v1.12.1
+  #     - quay.io/jetstack/cert-manager-ctl:v1.12.1
   
   - name: cert-manager-addons
     manifests:
