@@ -2,8 +2,8 @@ kind: ZarfPackageConfig
 metadata:
   name: bkcv-tunnel
   description: "Tunnel for bkcv domain"
-  version: 0.0.1
-  architecture: arm64
+  version: 0.0.2
+  architecture: amd64
 
 components:
 # https://github.com/brandtkeller/zarf-packages/tree/main/cloudflare-tunnel
