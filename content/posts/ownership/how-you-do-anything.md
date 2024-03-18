@@ -1,6 +1,6 @@
 ---
 title: "How you do anything is how you do everything"
-date: 2024-03-13T05:15:00-07:00
+date: 2024-03-17T05:15:00-07:00
 tags: ["Ownership", "Principles", "Values"]
 series: "Ownership"
 draft: false
@@ -22,6 +22,14 @@ Some old wisdom imparted on me in my early days in the Marine Corps was to volun
 
 That has stuck with me in a variety of productive ways. A given task often needs to be done - so let's approach it with the best intentions and the best effort we can muster.
 
+## Examples from Now
+
+Putting this into action in your career is a on brainer - maybe even essential to performing well. I have my weeks dominated by a variety of different discussions. Remote work means there is a lot of flexibility for multi-tasking. Sometimes that is accepted, but i'd argue better results are driven from muting the outside world and focusing on the topic at hand. 
+
+Another example is Open Source groups - often you can get away with only doing the work that you sign up to participate in. You can show up - camera and mic off - and get away with any amount of involvement (or lack thereof). OR you can be an active member of the time - Camera on, participating in discussion. Perhaps the topic isn't in your wheelhouse... scribe! Offer to grab notes for those unable to make the session and learn something more in the process.
+
+My favorite example is experimentation - whether your employer supports or provides this time is a different story - but when you have the time - showing up and being an active agent for feedback loops can drive ideation quickly in the most meaningful direction - even when the topic isn't the most sexy or fun.
+
 ## Other side of the coin
 
 You know you give eah and every task your all - yet you still find your standard slipping for some reason or another - is this a red flag? 
@@ -34,4 +42,4 @@ This can be a great exercise for guarding your time - something that I believe w
 
 ## From here on out
 
-The real message here is a belief that applying yourself and owning the task at hand requires a certain level of commitment and dedication and more often will result in the task output being a reflection of your dedication to the input.
+The message: Show up - participate - and focus on the problem. Remove distractions and be an agent of change. It's cliche I know, but it goes a long way when people are invested in the time you have already set-aside as opposed to multi-tasking and more obviously not being engaged or having the 1000 yard stare. 
