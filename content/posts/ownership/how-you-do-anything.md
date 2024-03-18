@@ -1,6 +1,6 @@
 ---
 title: "How you do anything is how you do everything"
-date: 2024-03-13T05:15:00-07:00
+date: 2024-03-17T05:15:00-07:00
 tags: ["Ownership", "Principles", "Values"]
 series: "Ownership"
 draft: false
