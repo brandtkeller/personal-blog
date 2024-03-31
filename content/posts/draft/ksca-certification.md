@@ -5,3 +5,5 @@ tags: ["Development", "Growth", "Mentorship"]
 series: "Development"
 draft: true
 ---
+
+## Why take a beginner certification?
