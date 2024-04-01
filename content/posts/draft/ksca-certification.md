@@ -6,4 +6,4 @@ series: "Development"
 draft: true
 ---
 
-## Why take a beginner certification?
+## Why this certification?
