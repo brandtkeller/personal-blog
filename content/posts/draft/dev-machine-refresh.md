@@ -20,10 +20,35 @@ Now take startup culture where the full spectrum of secure to wild west is a rea
 
 I have a development system that's been in continual daily-use for multiple years now. Experimentation across many open-source projects and ideas that have sprung into something executable. Many languages - many package managers - etc etc.
 
-
+Things add-up on the filesystem - even if you attempt to cleanup. Multiple projects in motion concurrently means that there may be a lot of in-progress ideas stored up.
 
 ## Step 1 - Plan
 
+I operate on GitHub day in and day out. Which means that If I am committing early and often - the idea of losing my work is quite small. I wanted to use this to my advantage. Looking at dev-containers, I knew there was something I wanted to leverage - but the project-specific nature was a bit of a hurdle. I needed something more general purpose.
+
+So why not just develop with containers in a semi-persistent manner? The dev-containers extension for vscode actually does a lot in the way of compatability and credentials for things like git.
+
+So what is the best way to commit to an experiment? wipe the machine.
+
 ## Step 2 - "rm -rf /*"
 
-## Step 3 - Use Ephermeral as a feature
+Did my work for the day - backed up any relevant data that I may want to cherry-pick in the future and then wiped the machine.
+
+let's start over.
+
+## Step 3 - Bare Essentials
+
+All I wanted to install on the host itself was the bare essentials.
+- VScode
+- Minimum Extensions (dev-containers, remote-ssh)
+- Docker
+
+## Step 4 - Use Ephermeral as a feature
+
+Now the guiding principals for developing within containers. If I am not mounting any persistent volumes, then any time I remove this container from running - all the ephemeral data is gone.
+
+This is extermely valuable to me in constant experimentation. Installing some new package or dependency - no need to remember to come back and remove it afterwords. At a minimum, when I update the container (on some established cadence), then it'll be gone anyway. 
+
+## Step 5 - Container Focus
+
+Talk about the repository.
