@@ -43,6 +43,8 @@ All I wanted to install on the host itself was the bare essentials.
 - Minimum Extensions (dev-containers, remote-ssh)
 - Docker
 
+As far as developpment goes... that's it. 
+
 ## Step 4 - Use Ephermeral as a feature
 
 Now the guiding principals for developing within containers. If I am not mounting any persistent volumes, then any time I remove this container from running - all the ephemeral data is gone.
@@ -53,7 +55,7 @@ This is extermely valuable to me in constant experimentation. Installing some ne
 
 From here - it's all about tracking required tooling and development environments with separation that makes sense in day to day. 
 
-Currently experimenting with a few different builds that all stem from a common base image. See the [repository]() for more information. 
+Currently experimenting with a few different builds that all stem from a common base image. See the [repository](https://github.com/brandtkeller/dev-env) for more information.
 
 Runtime of the containers can be as continuous as required - from simply a shell to a container that runs continuosly that I can connect to with VSCode. Think separate-isolated developmetn environments by language (go, python, javascript) or purpose (CLI, Kubernetes, etc). 
 
