@@ -1,6 +1,6 @@
 ---
 title: "Developer Environment Experiment - Developing solely in Containers"
-date: 2024-04-04T05:30:00-07:00
+date: 2024-04-05T05:30:00-07:00
 tags: ["Development", "Productivity"]
 series: "Development"
 draft: true
@@ -51,4 +51,15 @@ This is extermely valuable to me in constant experimentation. Installing some ne
 
 ## Step 5 - Container Focus
 
-Talk about the repository.
+From here - it's all about tracking required tooling and development environments with separation that makes sense in day to day. 
+
+Currently experimenting with a few different builds that all stem from a common base image. See the [repository]() for more information. 
+
+Runtime of the containers can be as continuous as required - from simply a shell to a container that runs continuosly that I can connect to with VSCode. Think separate-isolated developmetn environments by language (go, python, javascript) or purpose (CLI, Kubernetes, etc). 
+
+## Conclusion
+I've gloseed over quite a bit of the actual details in how this all coalesces together. How the VSCode workflow handles complexities such as gitconfig, ssh keys and other processes like allowing signed commits without having anything built-into the container itself.
+
+I'll dive more into those in future topics. Right now - I'll continue to experiment and look at what is really necessary for daily development - as well as using this same workflow to develop on beefier machines and treat my laptop as a thin-client of sorts. 
+
+More to come! thanks for reading. 
