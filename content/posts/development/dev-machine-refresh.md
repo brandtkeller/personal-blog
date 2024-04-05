@@ -3,7 +3,7 @@ title: "Developer Environment Experiment - Developing solely in Containers"
 date: 2024-04-05T05:30:00-07:00
 tags: ["Development", "Productivity"]
 series: "Development"
-draft: true
+draft: false
 ---
 
 ## Setting the Stage
