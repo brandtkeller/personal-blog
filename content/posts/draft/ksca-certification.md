@@ -6,6 +6,11 @@ series: "Development"
 draft: true
 ---
 
+## BLUF (Bottom Line Up Front)
+The KCSA certification addresses a gap in cloud/container security fundamentals whereas the KCNA is focused on cloud/container foundations. This exam (KCSA) will require understanding some of the security pillars that exist and how to orchestrate them - as well as activities present in the threat-modeling of existing environments. 
+
+If you are looking to bolster your security skills (or build them) in order to address this critical gap in cloud native environments - this could very well be a way to gain the skills you need to land a role in tech.
+
 ## Why this certification?
 
 I made a post a few weeks back about adding the Kubernetes and Cloud Native Security Associate (KCSA) [certification](https://training.linuxfoundation.org/certification/kubernetes-and-cloud-native-security-associate-kcsa/) to my LinkedIn profile. It was an opportunity the presented itself and I was naturally curious as to what it was about.
@@ -46,9 +51,10 @@ Ultimately I want to be able to offer advice that I can speak to and that I can 
 
 Browsing the Kubernetes slack one day and I found a post discussing the open beta for the KCSA certification. I was curious and decided to give it a shot.
 
-60-90 minutes
-Multiple Choice exam
-Beginner level
+- 60-90 minutes
+- Multiple Choice exam
+- Beginner level
+- Cloud and Container security skills 
 
 Sounds like a good pre-cursor to something like the CKA/CKAD certs. The bonus was participating in the beta meant that the exam was free. Results wouldn't be provided for months until the Exam was out of beta.
 
@@ -59,3 +65,7 @@ I set aside an hour of my day after work and performed the standard online proct
 Went through the exam without an preparation just to see what it would be like and was fine if I failed due to the specifics of the questions. 
 
 The questions themselves were interesting - you can't get away with taking this exam blind without any kubernetes experience - that's for sure. Good security fundamentals are a must for this exam - which impressed me given that CKA/CKAD are less security focused (Hence why there is the CKS).
+
+## Summary
+
+As noted in the BLUF -
