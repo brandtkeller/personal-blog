@@ -9,7 +9,7 @@ Comprised of a hugo builder image which then copies the `public/` contents into 
 See [Dockerfile](./Dockerfile)
 
 ## Deployment
-See the zarf [manifest](./deploy/kubernetes/zarf.yaml) for a background of the services that host this website. 
+See my homelab [repository](https://github.com/brandtkeller/home-lab/tree/main/rpi-cluster) for a background of the services that host this website. 
 
 ## Theme
 
@@ -25,3 +25,10 @@ git submodule init
 git submodule update
 hugo serve
 ```
+
+## TODO
+
+- Look at storing images in Cloudflare R2 - current method is bloating the image
+    - github workflow to sync photos 
+    - Change links from internal -> external
+- Find a process for bumping the pods on new image
