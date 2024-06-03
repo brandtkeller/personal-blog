@@ -9,7 +9,7 @@ draft: false
 ## Welcome!
 
 You are here:
-![](/images/rpi-closeup.png)
+![](https://content.bekindchooseviolence.com/rpi-closeup.png)
 
 You might be asking yourself how you ended up here. I'm just as surprised as you are :wink:.
 

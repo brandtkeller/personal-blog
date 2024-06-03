@@ -6,7 +6,7 @@ series: "Homelab"
 draft: false
 ---
 
-![](/images/tabby-rag.png)
+![](https://content.bekindchooseviolence.com/tabby-rag.png)
 
 # What is RAG?
 

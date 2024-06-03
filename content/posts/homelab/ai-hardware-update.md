@@ -6,7 +6,7 @@ series: "Homelab"
 draft: false
 ---
 
-![](/images/homelab-3060.jpg)
+![](https://content.bekindchooseviolence.com/homelab-3060.jpg)
 
 My ability to learn about new technologies often comes with needing to play with pieces of a larger concept. I can do lots of reading and tutorial-based learning, but ultimately getting my hands into the different pieces is how I learn best. 
 
@@ -22,7 +22,7 @@ Nonetheless, I decommissioned an old gaming desktop to make-up one of these prox
 
 I can't say I was actively looking - but I saw an RTX 3060 in the 12gb flavor drop to $200 and I had to pull the trigger. I knew I could fit larger models which would open up the space I had to experiment. With quick shipping it was on my doorstep not long after and I went to work with swapping the cards and re-deploying my AI VM's. 
 
-![](/images/homelab-hotswap.jpg)
+![](https://content.bekindchooseviolence.com/homelab-hotswap.jpg)
 
 I can't just leave the RTX2080 unused now can I?
 

@@ -6,7 +6,7 @@ series: "open-source"
 draft: false
 ---
 
-![](/images/kubecon23.jpeg)
+![](https://content.bekindchooseviolence.com/kubecon23.jpeg)
 
 KubeCon and CloudNativeCon North America 2023 is fast approaching. It is without contest my favorite event of the year. 
 
@@ -66,7 +66,7 @@ Throughout the venue there will be a variety of after-hours events. These are gr
 
 After hours activities such as PartyCon'23 hosted by Defense Unicorns, Chainguard and TestifySec:
 
-![](/images/partycon23.jpeg)
+![](https://content.bekindchooseviolence.com/partycon23.jpeg)
 
 ## Care for yourself
 These events are an incredible mental/physical/emotional stimulus and it can be overpowering at times. Need some time to decompress - step away and relax. 

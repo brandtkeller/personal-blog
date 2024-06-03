@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/audit-as-code.png)
+![](https://content.bekindchooseviolence.com/audit-as-code.png)
 
 I'm sure I am not alone here - but at one point in my engineering career I had helped build a platform, and only after building it did we come to the threshold that was - "Has this been evaluated by security". IE traditional silos and the need to evaluate for compliance across controls that may or may not apply. 
 

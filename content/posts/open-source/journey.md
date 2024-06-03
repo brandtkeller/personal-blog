@@ -6,7 +6,7 @@ series: "open-source"
 draft: false
 ---
 
-![](/images/opensource.png)
+![](https://content.bekindchooseviolence.com/opensource.png)
 
 Open Source software is a space I feel strongly about as a core fundamental requirement to the advancement of technological capabilities that make the lives of others better. I've never written code for the sake of proving to anyone why I am better - rather the sole focus has always been:
 

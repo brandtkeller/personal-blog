@@ -6,7 +6,7 @@ series: "Homelab"
 draft: false
 ---
 
-![](/images/tabby.png)
+![](https://content.bekindchooseviolence.com/tabby.png)
 
 Say hello to my new coding assistant - [Tabby](https://github.com/tabbyml/tabby).
 
@@ -20,7 +20,7 @@ For those who haven't read my previous review of [FauxPilot](), I have been expe
 
 Tabby image vs FauxPilot images:
 
-![](/images/tabby-container-image.png)
+![](https://content.bekindchooseviolence.com/tabby-container-image.png)
 
 The footprint of tabby comes with two nuances:
 - The container image at around 2.12GB
@@ -45,11 +45,11 @@ I don't want to oversell this - But with zero context, I have been super impress
 
 Start up the server and add some code for what I am about to write and it wholesale provides a whole file of suggestions - take this Kubernetes Custom Resource for example:
 
-![](/images/tabby-virtualservice.png)
+![](https://content.bekindchooseviolence.com/tabby-virtualservice.png)
 
 Or even crazier - I had referenced an API endpoint in code and then wanted to create a struct for the list of items it was going to return. In all of 2 seconds I had a struct that almost matched the API response (I had to modify 1 of the fields to a float64 type instead of an int).
 
-![](/images/tabby-struct.png)
+![](https://content.bekindchooseviolence.com/tabby-struct.png)
 
 This is TOO MUCH FUN. Is it always right? definitely not. But it cuts down on SIGNIFICANT amounts of time and effort to write CRUD or other code for any given task.
 

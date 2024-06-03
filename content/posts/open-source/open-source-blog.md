@@ -6,7 +6,7 @@ series: "open-source"
 draft: false
 ---
 
-![](/images/opensource.png)
+![](https://content.bekindchooseviolence.com/opensource.png)
 
 When I set out to created this blog, as noted in my [Blogging the hard way](https://brandtkeller.com/posts/blogging/blogging-the-hard-way/) article, I had a couple key objectives that I wanted to pursue:
 

@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/Pomodoro.jpeg)
+![](https://content.bekindchooseviolence.com/Pomodoro.jpeg)
 
 Sounds like a neat story title right?
 

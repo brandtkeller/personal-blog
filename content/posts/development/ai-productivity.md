@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/llm-image.jpeg)
+![](https://content.bekindchooseviolence.com/llm-image.jpeg)
 
 For those who adopted AI technologies early - this may not be the article for you. At the release of ChatGPT over a year ago now I was skeptical at best as to how it could make any meaningful difference to my day to day work and life. But I was wrong.
 

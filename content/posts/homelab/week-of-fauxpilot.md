@@ -6,7 +6,7 @@ series: "Homelab"
 draft: false
 ---
 
-![](/images/fauxpilot.png)
+![](https://content.bekindchooseviolence.com/fauxpilot.png)
 
 I'm far from an expert on LLMs and GenAI but - if there is one thing that makes my discovery phase for investing my time into new technology - it's getting my hands dirty.
 
@@ -23,13 +23,13 @@ In VSCode this suggestions comes up as opaque text - at the touch of a key (tab 
 ## In Practice
 
 Take for instance writing a struct in Golang: 
-![](/images/fauxpilot-in-action.png)
+![](https://content.bekindchooseviolence.com/fauxpilot-in-action.png)
 
 I can be creating something entirely unique and it still can interpret the code and understand what needs to come next and using the right language. 
 
 After writing some new structs for a project I am working on - it's picking up on common fields, and with zero prompting, is making the suggestion:
 
-![](/images/fauxpilot-in-action-2.png)
+![](https://content.bekindchooseviolence.com/fauxpilot-in-action-2.png)
 
 Even now as I type this blog - FauxPilot is suggesting what I might be writing next. 
 
@@ -99,7 +99,7 @@ The images for this are of substantial size - likely a big limiting factor for m
 
 The model I chose `codegen-2b-multi` requires 7gb vram and otherwise the memory/cpu utilization of the fauxpilot server and proxy were quite low. 
 
-![](/images/fauxpilot-stats.png)
+![](https://content.bekindchooseviolence.com/fauxpilot-stats.png)
 
 ## Operation
 

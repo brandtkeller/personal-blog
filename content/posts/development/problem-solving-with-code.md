@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/github-banner.png)
+![](https://content.bekindchooseviolence.com/github-banner.png)
 
 Seems obvious for the engineering community but hear me out:
 

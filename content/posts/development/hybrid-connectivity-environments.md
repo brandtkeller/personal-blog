@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/software-design.jpeg)
+![](https://content.bekindchooseviolence.com/software-design.jpeg)
 
 For quite some time now I've helped build platforms and the focus has always been to deliver value to the end user first and foremost. What capabilities would we enable and how great the future would be amiright?
 

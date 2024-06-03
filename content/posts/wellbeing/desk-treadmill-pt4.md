@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/strava-activities.png)
+![](https://content.bekindchooseviolence.com/strava-activities.png)
 
 What do we love? Data!
 

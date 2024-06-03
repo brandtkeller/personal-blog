@@ -6,7 +6,7 @@ series: "Blogging"
 draft: false
 ---
 
-![](/images/why-consider-blogging.png)
+![](https://content.bekindchooseviolence.com/why-consider-blogging.png)
 
 I was having a conversation recently about how and why I chose blogging as an experiment that I was going to invest my time and energy into - and it quickly became a sound-boarding session for things I had and hadn't considered (something I love about growth mindset individuals).
 

@@ -6,7 +6,7 @@ series: "Homelab"
 draft: false
 ---
 
-![](/images/churchill.png)
+![](https://content.bekindchooseviolence.com/churchill.png)
 
 Welcome to my Homelab series!
 

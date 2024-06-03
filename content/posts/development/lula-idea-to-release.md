@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/lula-banner.jpeg)
+![](https://content.bekindchooseviolence.com/lula-banner.jpeg)
 
 It's amazing to me the return on investment that comes from a company investing in themselves. Every month we're given 2 days and the ability to focus on an area of experimentation that could align with our mission objectives.
 

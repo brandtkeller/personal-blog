@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/mk8s-preview.jpeg)
+![](https://content.bekindchooseviolence.com/mk8s-preview.jpeg)
 
 [mk8s Github](https://github.com/mission-focused/mk8s)
 

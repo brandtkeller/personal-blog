@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/commute-office.jpg)
+![](https://content.bekindchooseviolence.com/commute-office.jpg)
 
 No seriously - this wasn't my attempt at a clickbait title but a change that I believe has been pivotal in my adult life as both a professional and father/husband/community leader. 
 

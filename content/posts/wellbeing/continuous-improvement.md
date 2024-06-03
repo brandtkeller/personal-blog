@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/jigsaw-watch.jpeg)
+![](https://content.bekindchooseviolence.com/jigsaw-watch.jpeg)
 
 New Year - same me. Everyone has a different opinion on Resolutions and aiming to be a better person/spouse/parent/etc. It's admirable to have that mindset.
 

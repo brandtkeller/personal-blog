@@ -32,3 +32,4 @@ hugo serve
     - github workflow to sync photos 
     - Change links from internal -> external
 - Find a process for bumping the pods on new image
+- Update image build token for action

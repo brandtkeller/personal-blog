@@ -48,11 +48,11 @@ To solve for the second focus item - I opted to deploy [zwave-js-ui](https://git
 ## What does it look like?
 
 Home Dashboard:
-![](/images/home-dashboard.png)
+![](https://content.bekindchooseviolence.com/home-dashboard.png)
 
 
 Office Dashboard:
-![](/images/office-dashboard.png)
+![](https://content.bekindchooseviolence.com/office-dashboard.png)
 
 Both of these are deployed in separate locations and can be controlled from home assistant. 
 

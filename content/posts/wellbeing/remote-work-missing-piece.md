@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/remote-work.png)
+![](https://content.bekindchooseviolence.com/remote-work.png)
 
 
 I will always admit that I love everything that is working for a fully remote company. I've battle tested the 2+ hr commute daily for longer than I cared to admit, and that time feels like a huge part of my life has been wasted. Working remotely has offered me time to focus on the things that matter, when they matter. 

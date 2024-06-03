@@ -6,7 +6,7 @@ series: "blogging"
 draft: false
 ---
 
-![](/images/markdown-blogging.png)
+![](https://content.bekindchooseviolence.com/markdown-blogging.png)
 
 Given the wide-array of available options for where to write and host blog articles - what lead me to Hugo and the markdown -> html translation workflow you might ask? It really comes down to knowing how I operate and what would make this venture successful.... 
 

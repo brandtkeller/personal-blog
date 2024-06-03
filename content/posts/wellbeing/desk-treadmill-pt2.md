@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/underdesk.jpg)
+![](https://content.bekindchooseviolence.com/underdesk.jpg)
 
 In the previous installment of the ongoing desk treadmill experiment (linked below), I mentioned that the circumstances of the treadmill I use today was probably not what the sane person would have done.
 
@@ -24,14 +24,14 @@ I could work with that. So I told my wife about the potential - (She rolled her 
 
 ## Troubleshoot
 
-![](/images/truck-bed-treadmill.jpg)
+![](https://content.bekindchooseviolence.com/truck-bed-treadmill.jpg)
 
 My daughter and I picked up the unit, which was left out for us, and we hauled it home and took stock of what we had. It had all of the pieces which was useful. Remote control which is standard on desk treadmills - failsafe cutoff sensor and a power cord.
 
 The unit did power on and when you pushed start would respond for a short period of time before cutting power to the motor. Error messages were helpful as I could just lookup the error codes.
 
 Come to find out - there was a loose connector inside the main electronics that needed to be seated better:
-![](/images/treadmill-connector.jpg)
+![](https://content.bekindchooseviolence.com/treadmill-connector.jpg)
 
 After seating that and applying a new seal of hot glue, the motor was spinning and I could stand on it and walk. 
 
@@ -47,7 +47,7 @@ With all of that done, I had to address one other item - the audible indicator f
 
 Looking around the main board, I found it and the two solder points and took a gamble that removing the beeper would result in operational use without any issues.
 
-![](/images/treadmill-beeper.jpg)
+![](https://content.bekindchooseviolence.com/treadmill-beeper.jpg)
 
 Findings? success! Please note that this modification is not recommended for everyone as it will now not audibly indicate when it is beginning to start, pause, or stop. I take very explicit steps between use to turn the device off at the main power switch.
 

@@ -6,7 +6,7 @@ series: "Development"
 draft: false
 ---
 
-![](/images/communication.jpeg)
+![](https://content.bekindchooseviolence.com/communication.jpeg)
 
 I find it both fascinating and hilarious the impact of those of whom you interact with on a daily basis eventually begin to impact you and how you operate. From both mannerisms that begin to become common place among groups to the language you use to communicate with others.
 

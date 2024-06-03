@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/maxwell-maltz.jpeg)
+![](https://content.bekindchooseviolence.com/maxwell-maltz.jpeg)
 
 Another wellbeing topic - as I believe people need reminders on a regular basis. This one being important to me because it comes from a conversation with a friend.
 

@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/shed-exterior.jpg)
+![](https://content.bekindchooseviolence.com/shed-exterior.jpg)
 
 Early this year (2023), My family and I were facing an interesting issue. We were expecting an addition to our family with the arrival of our son in April/May and our house (our first) was reaching the maximum capacity that it could handle. Don't get me wrong, we are very grateful for what we have worked to build and we have more than enough. We love the area we live in, our neighbors and our community.
 
@@ -28,7 +28,7 @@ The other option - was what if we added a dedicated office space on the property
 
 ## Getting to work
 
-![](/images/shed-shell.jpg)
+![](https://content.bekindchooseviolence.com/shed-shell.jpg)
 
 I ended up building a 2"x6" framed building myself and largely only hired out the drywall/mud/tape and otherwise did everything myself or with some help from contractor friends (like electrical). 
 
@@ -43,7 +43,7 @@ I'm going to do another post that shows the full progression. The full specs:
 ## Interior
 
 Quick Pano for the Interior:
-![](/images/shed-interior.jpg)
+![](https://content.bekindchooseviolence.com/shed-interior.jpg)
 
 ## Conclusion
 

@@ -6,7 +6,7 @@ series: "blogging"
 draft: false
 ---
 
-![](/images/mattis.jpeg)
+![](https://content.bekindchooseviolence.com/mattis.jpeg)
 
 When I was first getting ready to kick this blog off - I was looking for a unique domain name. I had already purchased `brandtkeller.com` and that is/was more than sufficient, but I loved the idea of something more playful and fun that added a little flare to the creation of content.
 

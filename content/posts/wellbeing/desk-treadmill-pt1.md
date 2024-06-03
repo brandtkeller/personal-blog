@@ -6,7 +6,7 @@ series: "Wellbeing"
 draft: false
 ---
 
-![](/images/walking-with-eli.png)
+![](https://content.bekindchooseviolence.com/walking-with-eli.png)
 
 This is part one of multiple blogs posts about my standing desk and treadmill combo that I have planned for the forseeable future. Reason being the impact on my physical and mental wellbeing since i've began incorporating it into my daily working life. 
 
@@ -42,7 +42,7 @@ Then I started coming across articles for people who actively walk while they we
 
 ## Experimentation
 
-![](/images/treadmill-desk-garage.jpg)
+![](https://content.bekindchooseviolence.com/treadmill-desk-garage.jpg)
 
 Earlier this year, I cobbled together some scrap wood and built a desk to sit on-top of my existing treadmill. My thought process here was that I could use my existing treadmill to prove out whether or not it was an enjoyable activity for me or not. It would also give me some early insights into the pros/cons.
 
@@ -67,7 +67,7 @@ So long story extremely long - I spent a month experimenting with having a walki
 
 ### Data
 
-![](/images/desk-treadmill-data.png)
+![](https://content.bekindchooseviolence.com/desk-treadmill-data.png)
 
 I wasn't going to write this without some hard data:
 

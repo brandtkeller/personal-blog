@@ -6,7 +6,7 @@ series: "homelab"
 draft: false
 ---
 
-![](/images/coauthor.png)
+![](https://content.bekindchooseviolence.com/coauthor.png)
 (Picture of my co-author and I writing this post)
 
 First off - this is meant to be a very light-hearted post. Something that I hope to impress on others is that Homelabs are a great opportunity to learn and grow your skills in new and relevant ways - but they come at the cost of being a labor of love. Something you maintain entirely in your free time and is best-effort to maintain and keep healthy.
