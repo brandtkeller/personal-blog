@@ -6,6 +6,8 @@ series: "Development"
 draft: true
 ---
 
+![](https://content.bekindchooseviolence.com/Ron.jpg)
+
 Events occur, Priorities shift, adaptation is required. 
 
 The last year has been a consistent roller coaster. I've always been on the edge of what defines security controls and how we architect systems to meet and exceed the requirements. My knowledge of compliance was sufficient enough to collaborate with others on answering the required controls and moving on with development efforts.
@@ -20,7 +22,7 @@ I have a new appreciation for the technology and people at the intersection of S
 
 So what is all this roots business? 
 
-I needed the above to set the stage - combined with events (see note below) that lead to another intersection. 
+I needed the above to set the stage - combined with events that lead to another intersection. 
 
 I worked with and on teams in the past that had very real requirements for airgapped infrastructure support. It's a fascinating problem space that often gets passed over. A system that airgap-native doesn't inherently have to be deployed to an airgapped. Rather the architecture is built to be resilient to connectivity demands and has assurance for how it operates. 
 
@@ -44,6 +46,26 @@ For now, I am shifting gears - staying with the area of software I am most passi
 
 Zarf is what lead me to join Defense Unicorns - and now I intend to dive into what the ecosystem and operators truly need to deploy critical cloud native workloads to systems; cloud, edge, or otherwise.
 
-If you have not yet looked at [Zarf](https://github.com/zarf-dev/zarf) - it is
+If you have not yet looked at [Zarf](https://github.com/zarf-dev/zarf) - it solves for a very real problem with the on-premise deployment model (and particularly airgap deployment model) of enabling GitOps for disconnected systems. 
+
+If you look at airgap documentation for almost any cloud native (and specifically Kubernetes) application - we see the same recommended patterns.
+
+- Pull all the required images
+- Pull the required helm charts or manifests
+- Push the images to an internal registry
+- Make a series of modifications to the orchestration
+- Deploy in a very specific way
+
+Cloud Native makes this inherently possible - but it leaves SO MUCH ROOM FOR ERROR. 
+
+What versions did you pull, are they all compatible, did you change every instance of the image references, etc etc?
+
+Zarf turns this all into a declarative package - inventory of everything you need to collect and how to deploy it - while removing the complexity of what needs to be modified to a minimum. 
+
+This package can then be reliably built and shipped to 1 or many different disconnected environments for exact deployment of the same artifacts in the exact same way - all with a single command. 
 
 ## Next steps
+
+As Ron said best above - I intend to lean into what is needed from the ecosystem to make airgap compatibility a first class citizen for cloud native applications. Not a sheer force of "everything should be compatible". But more importantly "do you know how your application responds without connectivity" or "intermittent connectivity". I think the results would surprise some people. 
+
+I refuse to do anything half-assed - but I will be looking to leverage all of the experience of the last year to collaborate on solving more of the hard problems that critical missions systems face with the evolving technology landscape. 
