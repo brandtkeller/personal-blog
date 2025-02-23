@@ -3,7 +3,7 @@ title: "Going back to my roots"
 date: 2025-02-24T05:30:00-07:00
 tags: ["Growth", "Development", "Adaptation"]
 series: "Development"
-draft: true
+draft: false
 ---
 
 ![](https://content.bekindchooseviolence.com/Ron.jpg)
