@@ -1,7 +1,6 @@
 baseURL = "brandtkeller.com/"
 languageCode = "en-us"
 theme = "poison"
-paginate = 5
 pluralizelisttitles = false
 
 [params]
