@@ -1,9 +1,9 @@
 ---
 title: "Disconnect your Kubernetes demos for greater confidence"
-date: 2025-03-04T05:30:00-07:00
+date: 2025-03-04T00:15:00-07:00
 tags: ["Demonstration", "Airgap", "Zarf"]
 series: "Development"
-draft: true
+draft: false
 ---
 
 ![](https://content.bekindchooseviolence.com/airgap-demo.png)
@@ -38,6 +38,39 @@ Whether your demonstration requires connectivity, whether your cluster has conne
 **note:** See the exact repository I used [here](https://github.com/brandtkeller/KCCNCNA-2022)
 
 Using [zarf](https://github.com/zarf-dev/zarf), I created declarative packages including all of the resources (container images, helm charts, kubernetes manifests) for the Kubernetes resources I wanted to demonstrate. 
+
+<details>
+  <summary>Here is an example of the declarative Istio package</summary>
+
+  ```yaml
+  kind: ZarfPackageConfig
+  metadata:
+    name: istio-package
+    description: "Simple example to load compliant and non-compliant workloads"
+
+  components:
+    - name: istio-base
+      description: "istio for arm64"
+      charts:
+        - name: base
+          url: https://istio-release.storage.googleapis.com/charts
+          version: 1.15.2 
+          namespace: istio-system
+
+    - name: istiod
+      description: "istiod for arm64"
+      images:
+        - docker.io/istio/pilot:1.15.2
+        - docker.io/istio/proxyv2:1.15.2
+        
+      charts:
+        - name: istiod
+          url: https://istio-release.storage.googleapis.com/charts
+          version: 1.15.2 
+          namespace: istio-system
+  ```
+</details> 
+
 
 Following [Zarf Processes](https://docs.zarf.dev/ref/) - Prior to the presentation:
 - Zarf package create for the istio zarf package
