@@ -1,15 +1,12 @@
 ---
 title: "Disconnect your Kubernetes demos for greater confidence"
-date: 2025-03-04T00:15:00-07:00
+date: 2025-03-04T05:30:00-07:00
 tags: ["Demonstration", "Airgap", "Zarf"]
 series: "Development"
 draft: false
 ---
 
 ![](https://content.bekindchooseviolence.com/airgap-demo.png)
-
-Note: [Skip](#treat-your-kubernetes-demo-as-if-airgapped) for specific recommendations and skip my commentary.
-
 
 If you're anything like me - you often prepare for the worst any time it's critically important to execute. 
 
