@@ -100,3 +100,9 @@ The goal here isn't to dictate what you can or cannot connect to - it is to redu
 ## Summary
 
 Treating your Kuberenetes cluster as an airgapped environment can enhance your ability to reproducibly deploy applications - more so when connectivity is either a concern or a constraint. 
+
+## Want to learn more?
+
+- Checkout the [Zarf](https://github.com/zarf-dev/zarf) Project
+- Join us on the Kubernetes slack in the `#zarf` channel
+- Reach out to me on the Kubernetes slack or on socials elsewhere
