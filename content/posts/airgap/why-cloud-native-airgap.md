@@ -6,6 +6,8 @@ series: "Airgap"
 draft: false
 ---
 
+![](https://content.bekindchooseviolence.com/cloud-native-offline.png)
+
 Welcome to the first post in my _Cloud Native Airgap Fundamentals_ series. 
 
 If you’re reading this, odds are you’ve been burned by a dependency you didn’t even know you had.
