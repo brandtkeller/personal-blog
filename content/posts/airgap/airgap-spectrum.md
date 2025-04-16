@@ -6,13 +6,13 @@ series: "Airgap"
 draft: true
 ---
 
-![](https://content.bekindchooseviolence.com/disconnected-design.png)
+![](https://content.bekindchooseviolence.com/airgap-spectrum.png)
 
-If you’ve heard the word *airgap* and thought “oh, that’s just for submarines,” you’re not wrong—but you’re also missing the bigger picture.
+If you’ve heard the word *airgap* and thought “oh, that’s just for submarines,” you’re not wrong — but you’re also missing the bigger picture.
 
 Airgaps aren’t binary. It’s not either full-internet or total-isolation.
 
-There’s a spectrum here—and understanding where your system lives on it is key to building something that doesn’t fall over the second a network hiccups.
+There’s a spectrum here — and understanding where your system lives on it is key to building something that doesn’t fall over the second a network hiccups.
 
 ## What is the airgap spectrum?
 
@@ -50,10 +50,10 @@ But if you build for “fully disconnected,” your system will *still work* in 
 
 That’s the point.
 
-Start with no assumptions—then add capabilities where you can.  
+Start with no assumptions — then add capabilities where you can.  
 Don’t start with full SaaS and try to claw your way back to self-reliant. That way lies broken deploys, midnight paging, and a lot of guesswork.
 
-I've lived this life - as have many others. There are assumptions about design and architecture that shake 
+I've lived this life - as have many others. There are assumptions about design and architecture that make or break how an application handles environments which may have different requirements or capabilities. 
 
 ## Real-world examples
 
@@ -61,11 +61,11 @@ I've lived this life - as have many others. There are assumptions about design a
 - **A field-deployed AI pipeline** that syncs new models over a Starlink relay once a week
 - **A software demo** that works even if the expo WiFi fails (ask me how I know)
 
-In all of those, it’s the same stack—but built to scale across the spectrum.
+In all of those, it’s the same stack — but built to scale across the spectrum.
 
 ## Summary
 
-> The airgap spectrum isn’t about policy—it’s about operational reality.
+> The airgap spectrum isn’t about policy — it’s about operational reality.
 
 Connectivity can vary by:
 - Region
