@@ -1,18 +1,18 @@
 ---
 title: "The Airgap Spectrum: Fully Disconnected to Controlled Connected"
-date: 2025-04-17T12:00:00-07:00
+date: 2025-04-17T06:00:00-07:00
 tags: ["Cloud-Native", "Airgap"]
 series: "Airgap"
-draft: true
+draft: false
 ---
 
 ![](https://content.bekindchooseviolence.com/airgap-spectrum.png)
 
 If you’ve heard the word *airgap* and thought “oh, that’s just for submarines,” you’re not wrong — but you’re also missing the bigger picture.
 
-Airgaps aren’t binary. It’s not either full-internet or total-isolation.
+Airgaps aren’t binary. It’s not either full-internet or total-isolation. This may seem counterintuitive to some... Airgap _feels_ pretty binary.
 
-There’s a spectrum here — and understanding where your system lives on it is key to building something that doesn’t fall over the second a network hiccups.
+There’s a spectrum here — maybe not all functions or capabilities within your system are airgap-dendent. Understanding where your system lives on this spectrum is key to building something that doesn’t fall over the second a network hiccups.
 
 ## What is the airgap spectrum?
 
@@ -21,7 +21,7 @@ Here’s how I usually explain it:
 | Tier | Description |
 |------|-------------|
 | **Fully Disconnected** | No network access at all. No internet. No relay. Think submarines, remote outposts, satellites. |
-| **Semi-Connected** | Some form of intermittent access—maybe via a satellite, a physical data drop, or a controlled sync window. Think forward operating bases or offline-first drones. |
+| **Semi-Connected** | Some form of intermittent access—maybe via a satellite, a physical data drop, or a controlled sync window. Think forward operating bases, offline-first drones, or even industrial SCADA systems. |
 | **Controlled Connected** | Internet access exists but is gated through policy, firewalls, or a limited egress path. Think SIPR/NIPR or compliance-heavy enclaves. |
 | **Online** | Full internet access. Normal CI/CD pipelines, SaaS services, live GitOps syncs. |
 
@@ -51,7 +51,7 @@ But if you build for “fully disconnected,” your system will *still work* in 
 That’s the point.
 
 Start with no assumptions — then add capabilities where you can.  
-Don’t start with full SaaS and try to claw your way back to self-reliant. That way lies broken deploys, midnight paging, and a lot of guesswork.
+Don’t start with full SaaS and try to claw your way back to self-reliant. That way lies broken deploys and a lot of guesswork.
 
 I've lived this life - as have many others. There are assumptions about design and architecture that make or break how an application handles environments which may have different requirements or capabilities. 
 
