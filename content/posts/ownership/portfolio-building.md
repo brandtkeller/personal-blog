@@ -1,5 +1,5 @@
 ---
-title: "Tell a Story: Portfolio Building & Evaluation"
+title: "Tell a Story: Portfolio Building"
 date: 2025-10-10T06:00:00-07:00
 tags: ["Ownership", "Portfolio"]
 series: "Ownership"
