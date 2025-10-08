@@ -50,6 +50,6 @@ Maybe you're looking at certifications or other notable activity. Acknowledge th
 
 ## Takeaways
 
-There are a number of ways to discover meaningful information about someone - and most of the time it is be helping them advocate for themselves. 
+There are a number of ways to discover meaningful information about someone - and most of the time it is about helping them advocate for themselves. 
 
 Some people may require work - but that is okay. We have the potential to lead a person to where they want to be if they are willing to put in the work.
