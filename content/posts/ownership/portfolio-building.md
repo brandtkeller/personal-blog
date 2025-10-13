@@ -1,9 +1,9 @@
 ---
 title: "Tell a Story: Portfolio Building"
-date: 2025-10-10T06:00:00-07:00
+date: 2025-10-13T06:00:00-07:00
 tags: ["Ownership", "Portfolio"]
 series: "Ownership"
-draft: true
+draft: false
 ---
 
 For one reason or another you are evaluating the optics of your portfolio.
@@ -25,7 +25,7 @@ Your portfolio can be a story that tells more than what you've accomplished - it
 So we ask ourselves: "What does my portfolio consist of?"
 
 It can be obvious:
-- GitHub Activity
+- Public GitHub Activity
 - Certifications
 - Public Speaking
 - Publications
@@ -60,7 +60,7 @@ What do we need to think about?
 
 Much like a cover letter - you should have goals that drive towards a target. Sure you should do what makes you happy. But if you are investing the time to learn and grow - you should put yourself in a position that aligns with your goals. 
 
-Something like a certification shouldn't be solely "I achieved passing the exam" - but rather "Here is what I learned from achieving the certification...". 
+Something like a certification shouldn't be solely "I achieved passing the exam" - but rather "Here is what I learned from achieving this certification...". 
 
 If you were in this phase and wanted to start with a fresh target - this is an opportunity to explore "what could I pursue that is meaningful to my/target-employer/other goals?"
 
@@ -88,3 +88,8 @@ Having an account on various professional social media sites alone is not networ
 
 _Presence is networking_ - showing up and observing others - contributing to the conversation - being involved with others is networking. 
 
+## Summary
+
+We do all of this (and more) to build a story that we can tell. All of this is also only part of our story; there may very well be grand experiences that are private for very good reasons.
+
+The better we are at making this discoverable the better chance we have at our story telling itself - which may just be the next step. Once we progress from building a portfolio we can begin to think about how we build our own personal brand. More to come on that topic.
